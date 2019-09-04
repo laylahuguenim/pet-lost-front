@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
 
+import Nav from '../../components/Nav';
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>PetLost</p>
-      </header>
-    </div>
-  );
+    return <>
+		<Nav></Nav>
+		<div className="App">
+			
+		</div>
+    </>;
 }
 
 export default App;
