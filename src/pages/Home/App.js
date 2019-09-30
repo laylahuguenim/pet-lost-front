@@ -8,7 +8,7 @@ function App() {
     return <>
 		<Nav></Nav>
 		<div className="App">
-			<List type="announcements" queries="situation=lost"/>
+			<List type="pets" queries="active=true" title="Precisando de ajuda"/>
 		</div>
     </>;
 }
