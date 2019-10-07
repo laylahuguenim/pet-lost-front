@@ -34,7 +34,7 @@ export default class List extends React.Component {
                     <h2>{this.props.title}</h2>
                     <ul>
                         {items.map(pet => (
-                            <li key={pet.id}><PetCard pet={pet}/></li>
+                            <li key={pet.slug}><PetCard pet={pet}/></li>
                         ))}
                     </ul>
                 </section>

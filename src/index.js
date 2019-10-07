@@ -13,7 +13,7 @@ ReactDOM.render(
         <Switch>
             <Route path="/" exact={true} component={App} />
             <Route path="/login" component={Login} />
-            <Route path="/pet/:id" component={Detail} />
+            <Route path="/pet/:slug" component={Detail} />
         </Switch>
     </ BrowserRouter>,
     document.getElementById('root')

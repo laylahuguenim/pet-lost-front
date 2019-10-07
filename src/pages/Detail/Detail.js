@@ -7,8 +7,8 @@ import Nav from '../../components/Nav';
 function Detail(props) {
   	return <>
 	  	<Nav />
-      	<p>Página do pet de id: {props.match.params.id}!</p>
-		<PetDetail numId={props.match.params.id}/>
+      	<p>Página do pet de slug: {props.match.params.slug}!</p>
+		<PetDetail slug={props.match.params.slug}/>
   	</>;
 }
 

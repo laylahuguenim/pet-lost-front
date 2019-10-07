@@ -12,7 +12,7 @@ export default class PetDetail extends React.Component {
     }
 
     componentDidMount() {
-        axios.get('https://gui-pets.herokuapp.com/api/pets/' + this.props.numId)
+        axios.get('https://gui-pets.herokuapp.com/api/pets/' + this.props.slug)
             .then(response => {
                 this.setState({ isLoaded: true, pet: response.data });
                 console.log(response.data);

@@ -11,7 +11,6 @@ class Nav extends React.Component {
                     <li><Link to="#" disabled>Desaparecidos</Link></li>
                     {/* <li><Link to="/found">Encontrados</Link></li> */}
                     <li><Link to="/login">Login</Link></li>
-                    <li><Link to="/pet/1">Pet 1</Link></li>
                 </ul>
             </nav>
         </header>;
